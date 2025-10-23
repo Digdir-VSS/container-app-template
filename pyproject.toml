@@ -1,0 +1,15 @@
+[project]
+name = "container-app-template"
+version = "0.1.0"
+description = "Deployment template for Azure Container Apps"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "azure-identity>=1.25.1",
+    "azure-identity-broker>=1.3.0",
+    "cachetools>=6.2.1",
+    "dotenv>=0.9.9",
+    "msal>=1.34.0",
+    "nicegui>=3.1.0",
+    "sqlmodel>=0.0.27",
+]
